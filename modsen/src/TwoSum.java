@@ -5,7 +5,7 @@ public class TwoSum {
 
         int[] result = twoSum(nums, target);
         if (result != null) {
-            System.out.println("Output: [" + result[0] + ", " + result[1] + "]");
+            System.out.println("Sum: [" + result[0] + ", " + result[1] + "]");
         } else {
             System.out.println("No such elements.");
         }
